@@ -43,7 +43,7 @@ void setup() {
   randomSeed(27);
   
   strip.begin();
-  strip.setBrightness(10);
+  strip.setBrightness(5);
   strip.show(); // Initialize all pixels to 'off'
 }
 

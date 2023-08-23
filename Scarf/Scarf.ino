@@ -26,6 +26,7 @@ uint8_t patternChoice;
 void setup() {
 
   strip.begin();
+  strip.setBrightness(64); // 25% brightness seems good in the dark
   strip.show(); // Initialize all pixels to 'off'
 
   randomSeed(analogRead(1));
